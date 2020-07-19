@@ -1,0 +1,757 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "a3794aea3ae4bfacc68f",
+  "time": 250,
+  "builtAt": 1595157396447,
+  "publicPath": "",
+  "outputPath": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3",
+  "assetsByChunkName": {
+    "main": [
+      "app.css",
+      "bundle.js",
+      "app.css.map",
+      "bundle.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "app.css",
+      "size": 62,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "app.css.map",
+      "size": 176,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": true
+    },
+    {
+      "name": "bundle.js",
+      "size": 4514,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "bundle.js.map",
+      "size": 3876,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "app.css",
+        "bundle.js",
+        "app.css.map",
+        "bundle.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "app.css",
+        "bundle.js",
+        "app.css.map",
+        "bundle.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 146,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "app.css",
+        "bundle.js",
+        "app.css.map",
+        "bundle.js.map"
+      ],
+      "hash": "ecf70931302a569f0071",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+          "name": "./a.js",
+          "index": 0,
+          "index2": 3,
+          "size": 32,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./a.js",
+              "loc": "main"
+            }
+          ],
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "import { name } from './b.js';\r\n"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+          "name": "./b.js",
+          "index": 1,
+          "index2": 2,
+          "size": 49,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+          "issuerId": 0,
+          "issuerName": "./a.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+              "name": "./a.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+              "module": "./a.js",
+              "moduleName": "./a.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./b.js",
+              "loc": "1:0-30"
+            }
+          ],
+          "providedExports": [
+            "name"
+          ],
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "import './style.css'\r\n\r\nexport var name = 'Jack';"
+        },
+        {
+          "id": 2,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+          "name": "./style.css",
+          "index": 2,
+          "index2": 1,
+          "size": 39,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+          "issuerId": 1,
+          "issuerName": "./b.js",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+              "name": "./a.js"
+            },
+            {
+              "id": 1,
+              "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+              "name": "./b.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+              "module": "./b.js",
+              "moduleName": "./b.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "./style.css",
+              "loc": "1:0-20"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 2,
+          "source": "// extracted by mini-css-extract-plugin"
+        },
+        {
+          "id": "",
+          "identifier": "css D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css 0",
+          "name": "css ./node_modules/css-loader/dist/cjs.js!./style.css",
+          "index": 3,
+          "index2": 0,
+          "size": 26,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+          "issuerId": 2,
+          "issuerName": "./style.css",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+              "name": "./a.js"
+            },
+            {
+              "id": 1,
+              "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+              "name": "./b.js"
+            },
+            {
+              "id": 2,
+              "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+              "name": "./style.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+              "module": "./style.css",
+              "moduleName": "./style.css"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 3
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./a.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+      "name": "./a.js",
+      "index": 0,
+      "index2": 3,
+      "size": 32,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./a.js",
+          "loc": "main"
+        }
+      ],
+      "providedExports": [],
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "import { name } from './b.js';\r\n"
+    },
+    {
+      "id": 1,
+      "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+      "name": "./b.js",
+      "index": 1,
+      "index2": 2,
+      "size": 49,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+      "issuerId": 0,
+      "issuerName": "./a.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+          "name": "./a.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+          "module": "./a.js",
+          "moduleName": "./a.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./b.js",
+          "loc": "1:0-30"
+        }
+      ],
+      "providedExports": [
+        "name"
+      ],
+      "optimizationBailout": [],
+      "depth": 1,
+      "source": "import './style.css'\r\n\r\nexport var name = 'Jack';"
+    },
+    {
+      "id": 2,
+      "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+      "name": "./style.css",
+      "index": 2,
+      "index2": 1,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+      "issuerId": 1,
+      "issuerName": "./b.js",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+          "name": "./a.js"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+          "name": "./b.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+          "module": "./b.js",
+          "moduleName": "./b.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "./style.css",
+          "loc": "1:0-20"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 2,
+      "source": "// extracted by mini-css-extract-plugin"
+    },
+    {
+      "id": "",
+      "identifier": "css D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css 0",
+      "name": "css ./node_modules/css-loader/dist/cjs.js!./style.css",
+      "index": 3,
+      "index2": 0,
+      "size": 26,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+      "issuerId": 2,
+      "issuerName": "./style.css",
+      "issuerPath": [
+        {
+          "id": 0,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\a.js",
+          "name": "./a.js"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\b.js",
+          "name": "./b.js"
+        },
+        {
+          "id": 2,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+          "name": "./style.css"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\mini-css-extract-plugin\\dist\\loader.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+          "module": "./style.css",
+          "moduleName": "./style.css"
+        }
+      ],
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 3
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 2778,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "734f07867ad2cbcfa215",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./style.css",
+              "index": 0,
+              "index2": 1,
+              "size": 261,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \".app {\\r\\n  color: green;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+            },
+            {
+              "id": 1,
+              "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\runtime\\api.js",
+              "name": "./node_modules/css-loader/dist/runtime/api.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2517,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader/dist/cjs.js!./style.css",
+              "issuerPath": [
+                {
+                  "id": 0,
+                  "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+                  "name": "./node_modules/css-loader/dist/cjs.js!./style.css"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+                  "module": "./node_modules/css-loader/dist/cjs.js!./style.css",
+                  "moduleName": "./node_modules/css-loader/dist/cjs.js!./style.css",
+                  "type": "cjs require",
+                  "userRequest": "./node_modules/css-loader/dist/runtime/api.js",
+                  "loc": "2:34-90"
+                }
+              ],
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+          "name": "./node_modules/css-loader/dist/cjs.js!./style.css",
+          "index": 0,
+          "index2": 1,
+          "size": 261,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "// Imports\nvar ___CSS_LOADER_API_IMPORT___ = require(\"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.id, \".app {\\r\\n  color: green;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n"
+        },
+        {
+          "id": 1,
+          "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\runtime\\api.js",
+          "name": "./node_modules/css-loader/dist/runtime/api.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2517,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader/dist/cjs.js!./style.css",
+          "issuerPath": [
+            {
+              "id": 0,
+              "identifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+              "name": "./node_modules/css-loader/dist/cjs.js!./style.css"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\node_modules\\css-loader\\dist\\cjs.js!D:\\mygit\\webpack-tutorial\\2\\webpack2-3\\style.css",
+              "module": "./node_modules/css-loader/dist/cjs.js!./style.css",
+              "moduleName": "./node_modules/css-loader/dist/cjs.js!./style.css",
+              "type": "cjs require",
+              "userRequest": "./node_modules/css-loader/dist/runtime/api.js",
+              "loc": "2:34-90"
+            }
+          ],
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "\"use strict\";\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\n// eslint-disable-next-line func-names\nmodule.exports = function (useSourceMap) {\n  var list = []; // return the list of modules as css string\n\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = cssWithMappingToString(item, useSourceMap);\n\n      if (item[2]) {\n        return \"@media \".concat(item[2], \" {\").concat(content, \"}\");\n      }\n\n      return content;\n    }).join('');\n  }; // import a list of modules into the list\n  // eslint-disable-next-line func-names\n\n\n  list.i = function (modules, mediaQuery, dedupe) {\n    if (typeof modules === 'string') {\n      // eslint-disable-next-line no-param-reassign\n      modules = [[null, modules, '']];\n    }\n\n    var alreadyImportedModules = {};\n\n    if (dedupe) {\n      for (var i = 0; i < this.length; i++) {\n        // eslint-disable-next-line prefer-destructuring\n        var id = this[i][0];\n\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n\n    for (var _i = 0; _i < modules.length; _i++) {\n      var item = [].concat(modules[_i]);\n\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        // eslint-disable-next-line no-continue\n        continue;\n      }\n\n      if (mediaQuery) {\n        if (!item[2]) {\n          item[2] = mediaQuery;\n        } else {\n          item[2] = \"\".concat(mediaQuery, \" and \").concat(item[2]);\n        }\n      }\n\n      list.push(item);\n    }\n  };\n\n  return list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring\n\n  var cssMapping = item[3];\n\n  if (!cssMapping) {\n    return content;\n  }\n\n  if (useSourceMap && typeof btoa === 'function') {\n    var sourceMapping = toComment(cssMapping);\n    var sourceURLs = cssMapping.sources.map(function (source) {\n      return \"/*# sourceURL=\".concat(cssMapping.sourceRoot || '').concat(source, \" */\");\n    });\n    return [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n  }\n\n  return [content].join('\\n');\n} // Adapted from convert-source-map (MIT)\n\n\nfunction toComment(sourceMap) {\n  // eslint-disable-next-line no-undef\n  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n  var data = \"sourceMappingURL=data:application/json;charset=utf-8;base64,\".concat(base64);\n  return \"/*# \".concat(data, \" */\");\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!style.css"
+    }
+  ]
+}
