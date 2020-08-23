@@ -92,13 +92,9 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sky_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
-
 console.log(_sky_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 var dom = `<img src='${_sky_jpg__WEBPACK_IMPORTED_MODULE_0__["default"]}' />`;
-
-console.log(dom)
-
 window.onload = function () {
   document.getElementById('main').innerHTML = dom;
 }
