@@ -1,3 +1,5 @@
-import { name } from './b.js';
+let name = 'Jack';
+debugger;
 console.log(name);
-console.log(123);
+let age = 18;
+console.log(age);
