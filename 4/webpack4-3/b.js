@@ -1,0 +1,1 @@
+export var name = 'Rose9';
