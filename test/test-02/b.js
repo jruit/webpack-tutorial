@@ -1,3 +1,9 @@
 export var name = 'Rose30';
-console.log(name);
+var age = 18;
+age = 19;
+console.log(age);
 console.log(222);
+
+if (module.hot) {
+  module.hot.accept();
+}

@@ -16,8 +16,8 @@ module.exports = {
   },
   plugins:[
       // 使用热模块更新方法
-      new webpack.HotModuleReplacementPlugin(),
-      new webpack.NamedModulesPlugin()
+      // new webpack.HotModuleReplacementPlugin(),
+      // new webpack.NamedModulesPlugin()
   ],
   mode: 'none'
 };
