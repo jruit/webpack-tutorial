@@ -1,6 +1,6 @@
 export var name = 'Rose30';
 var age = 18;
-age = 19;
+age = 20;
 console.log(age);
 console.log(222);
 
