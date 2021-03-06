@@ -1,11 +1,9 @@
 {
-  "name": "webpack3-2",
+  "name": "webpack6-2",
   "version": "1.0.0",
   "description": "https://www.jiangruitao.com/webpack/",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "keywords": [
     "webpack-tutorial"
   ],
@@ -14,10 +12,5 @@
   "devDependencies": {
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
-  },
-  "dependencies": {
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
-    "babel-loader": "^8.1.0"
   }
 }

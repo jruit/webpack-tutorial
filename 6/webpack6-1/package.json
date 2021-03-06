@@ -1,10 +1,10 @@
 {
-  "name": "webpack3-2",
+  "name": "webpack6-1",
   "version": "1.0.0",
   "description": "https://www.jiangruitao.com/webpack/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "cross-env MY_ENV=dev webpack"
   },
   "keywords": [
     "webpack-tutorial"
@@ -12,12 +12,8 @@
   "author": "jruit",
   "license": "ISC",
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
-  },
-  "dependencies": {
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
-    "babel-loader": "^8.1.0"
   }
 }
